@@ -1,0 +1,73 @@
+/*потом поменять позицию с absolute*/
+
+.message {
+
+}
+
+.imageAndText {
+
+}
+
+.imageAndText img {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    top: 204px;
+    left: 1162px;
+}
+
+.text {
+    position: absolute;
+    padding: 7px 25px 8px 13px;
+    width: 527px;
+    height: 60px;
+    top: 192px;
+    left: 635px;
+    background-color: #0066CC;
+    border-radius: 5px;
+}
+
+.text:after {
+
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.messageText {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.time {
+    position: absolute;
+    width: 26px;
+    height: 12px;
+    top: 257px;
+    left: 1173px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
