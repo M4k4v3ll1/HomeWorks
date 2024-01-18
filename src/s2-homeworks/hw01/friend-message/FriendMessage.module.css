@@ -1,35 +1,40 @@
-/*потом поменять позицию с absolute*/
-
 .friendMessage {
-
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 56px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    flex-direction: row
 }
 
 .friendImageAndText img {
-    position: absolute;
+    display: flex;
+    align-self: flex-end;
     width: 48px;
     height: 48px;
-    border-radius: 24px;
-    top: 311px;
-    left: 70px;
+    margin-right: 15px;
 }
 
 .friendText {
-    position: absolute;
+    position: relative;
     padding: 7px 25px 8px 13px;
-    width: 414px;
     height: 60px;
-    top: 299px;
-    left: 118px;
     background-color: #F5F7FB;
     border-radius: 5px;
 }
 
 .friendText:after {
-
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    bottom: 0px;
+    border: 0 solid transparent;
+    border-right-width: 0px;
+    border-left-width: 20px;
+    border-bottom: 20px solid #F5F7FB;
 }
 
 .friendName {
@@ -57,11 +62,15 @@
 }
 
 .friendTime {
-    position: absolute;
-    width: 29px;
+    position: relative;
+    align-self: flex-end;
+    left: -465px;
+    bottom: -20px;
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    width: 26px;
     height: 12px;
-    top: 364px;
-    left: 80px;
     font-family: Montserrat;
     font-size: 10px;
     font-weight: 600;

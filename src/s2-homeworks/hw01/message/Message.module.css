@@ -1,35 +1,42 @@
-/*потом поменять позицию с absolute*/
-
 .message {
-
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
-    position: absolute;
+    display: flex;
+    align-self: flex-end;
     width: 48px;
     height: 48px;
     border-radius: 24px;
-    top: 204px;
-    left: 1162px;
+    margin-left: 15px;
 }
 
 .text {
-    position: absolute;
+    position: relative;
     padding: 7px 25px 8px 13px;
-    width: 527px;
     height: 60px;
-    top: 192px;
-    left: 635px;
     background-color: #0066CC;
     border-radius: 5px;
 }
 
-.text:after {
-
+.text::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+    border: 0 solid transparent;
+    border-right-width: 20px;
+    border-left-width: 0px;
+    border-bottom: 20px solid #0066CC;
 }
 
 .name {
@@ -54,15 +61,15 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-
 }
 
 .time {
-    position: absolute;
+    position: relative;
+    align-self: flex-end;
+    right: 38px;
+    bottom: -20px;
     width: 26px;
     height: 12px;
-    top: 257px;
-    left: 1173px;
     font-family: Montserrat;
     font-size: 10px;
     font-weight: 600;
