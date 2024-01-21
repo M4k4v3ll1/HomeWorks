@@ -1,6 +1,6 @@
 .sendForm {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 44px;
 }
 
@@ -14,17 +14,16 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: black;
     opacity: 60%;
     resize: vertical;
     overflow: hidden
-
 }
 
 .button {
-
+    padding: 10px 38px;
     width: 120px;
     height: 40px;
     border-radius: 20px;
@@ -34,10 +33,19 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
+    letter-spacing: 0;
     color: #FFFFFF;
-    text-align: center;
+}
+
+.button::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    bottom: -32px;
+    left: -1220px;
+    background-color: #D9D9D9;
+    width: 110vw;
+    height: 1px;
 }
 
 .button:hover {

@@ -1,9 +1,8 @@
-/*потом поменять позицию с absolute*/
-
 .App {
     --header_height: 60px;
-    padding: 107px 70px;
+    padding: 0 107px;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .hw {
@@ -11,6 +10,8 @@
 }
 
 .hwTitle {
+    display: flex;
+    margin-top: 70px;
     position: relative;
     width: 165px;
     height: 27px;
@@ -18,16 +19,17 @@
     font-size: 22px;
     font-weight: 600;
     line-height: 27px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
 }
+
 .hwTitle::after {
     content: '';
     display: inline-block;
     position: absolute;
     top: 32px;
-    left: -70px;
+    left: -107px;
     background-color: #D9D9D9;
-    width: 100vw;
+    width: 120vw;
     height: 1px;
 }

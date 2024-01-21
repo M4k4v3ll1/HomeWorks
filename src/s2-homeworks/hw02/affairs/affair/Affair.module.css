@@ -2,17 +2,17 @@
     display: flex;
     align-items: center;
     width: 185px;
-
     border: 1.5px solid var(--color);
     border-radius: 5px;
 }
 
 .name {
+    padding-left: 14px;
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 145px;
     height: 37px;
+    border-right: 1.5px solid var(--color);
 }
 
 .closeButton {
@@ -21,10 +21,12 @@
     justify-content: center;
     width: 40px;
     height: 37px;
-
+    font-size: 28px;
+    font-family: "Times New Roman";
+   transform: rotateZ(45deg);
     background-color: transparent;
     border: none;
-    border-left: 1.5px solid var(--color);
+
 
     font-weight: 900;
     cursor: pointer;
