@@ -1,7 +1,7 @@
 .friendMessage {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 56px;
+    margin-bottom: 72px;
 }
 
 .friendImageAndText {
@@ -30,9 +30,9 @@
     display: inline-block;
     position: absolute;
     left: -10px;
-    bottom: 0px;
+    bottom: 0;
     border: 0 solid transparent;
-    border-right-width: 0px;
+    border-right-width: 0;
     border-left-width: 20px;
     border-bottom: 20px solid #F5F7FB;
 }
@@ -44,7 +44,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #000000;
 }
@@ -55,8 +55,8 @@
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
+    line-height: 30px;
+    letter-spacing: 0;
     text-align: left;
     color: #000000
 }
@@ -65,9 +65,8 @@
     position: relative;
     align-self: flex-end;
     left: -465px;
-    bottom: -20px;
+    bottom: -18px;
     display: flex;
-    align-self: flex-end;
     flex-wrap: wrap;
     width: 26px;
     height: 12px;
@@ -75,7 +74,7 @@
     font-size: 10px;
     font-weight: 600;
     line-height: 12px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #000000;
 }
