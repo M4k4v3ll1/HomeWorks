@@ -16,7 +16,7 @@
 
 .hwTitle {
     display: flex;
-    margin-top: 70px;
+    margin: 70px 0 40px 0;
     position: relative;
     width: 165px;
     height: 27px;

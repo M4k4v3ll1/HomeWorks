@@ -1,0 +1,48 @@
+.item {
+
+}
+
+.item:last-of-type {
+}
+
+.users {
+    width: 606px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 606px;
+    margin-bottom: 18px;
+}
+
+.container {
+}
+
+.thead {
+    background-color: #E5E5E5;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+    height: 36px;
+
+}
+
+.nameCol {
+    width: 280px;
+    height: 36px;
+    padding: 10px 0 10px 17px;
+}
+
+.ageCol {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 10px 0 10px 17px;
+}
