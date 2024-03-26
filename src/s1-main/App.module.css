@@ -16,9 +16,9 @@
 
 .hwTitle {
     display: flex;
+    flex-wrap: nowrap;
     margin: 70px 0 40px 0;
     position: relative;
-    width: 165px;
     height: 27px;
     font-family: Montserrat, sans-serif;
     font-size: 22px;
