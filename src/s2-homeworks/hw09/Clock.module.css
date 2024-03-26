@@ -1,0 +1,26 @@
+.buttonsContainer {
+    display: flex;
+    width: 186px;
+    height: 30px;
+    gap: 20px;
+}
+
+.clock {
+    margin-bottom: 8px;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+}
+
+.watch {
+}
+
+.watch strong {
+}
+
+.more {
+    margin-top: 8px;
+    margin-bottom: 28px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    opacity: 50%;
+}
