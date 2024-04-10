@@ -1,0 +1,44 @@
+.buttonsContainer {
+    display: flex;
+    gap: 24px;
+
+}
+
+.responseContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    height: 315px
+}
+
+.imageContainer {
+}
+
+.image {
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    width: 510px;
+}
+
+.code {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
